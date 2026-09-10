@@ -41,10 +41,5 @@ public class SaleService {
 
 		return repository.searchSummary(min, max);
 	}
-	
-//	public SaleMinDTO findById(Long id) {
-//		Optional<Sale> result = repository.findById(id);
-//		Sale entity = result.get();
-//		return new SaleMinDTO(entity);
-//	}
+
 }
